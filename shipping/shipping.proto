@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/huseyinbabal/microservices-proto/shipping";
+option go_package = "github.com/CoderUday1/microservices-proto/shipping";
 
 message CreateShippingRequest {
     string address = 1;

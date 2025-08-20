@@ -110,7 +110,7 @@ const file_shipping_shipping_proto_rawDesc = "" +
 	"\aaddress\x18\x01 \x01(\tR\aaddress\"\x18\n" +
 	"\x16CreateShippingResponse2G\n" +
 	"\bShipping\x12;\n" +
-	"\x06Create\x12\x16.CreateShippingRequest\x1a\x17.CreateShippingResponse\"\x00B6Z4github.com/huseyinbabal/microservices-proto/shippingb\x06proto3"
+	"\x06Create\x12\x16.CreateShippingRequest\x1a\x17.CreateShippingResponse\"\x00B4Z2github.com/CoderUday1/microservices-proto/shippingb\x06proto3"
 
 var (
 	file_shipping_shipping_proto_rawDescOnce sync.Once

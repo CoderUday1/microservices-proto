@@ -1,4 +1,4 @@
-module github.com/CoderUday1/microservices-proto/golang/order
+module github.com/coderuday1/microservices-proto/golang/order
 
 go 1.25.0
 

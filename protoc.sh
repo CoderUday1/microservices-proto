@@ -29,7 +29,7 @@ protoc --go_out=./golang --go_opt=paths=source_relative \
 cd golang/${SERVICE_NAME}
 rm go.mod
 rm go.sum
-go mod init github.com/CoderUday1/microservices-proto/golang/${SERVICE_NAME}" || true
+go mod init github.com/CoderUday1/microservices-proto/golang/${SERVICE_NAME} || true
 go mod tidy
 cd ../../
 

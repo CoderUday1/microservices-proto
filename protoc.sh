@@ -42,6 +42,5 @@ git pull --rebase origin main
 git push origin HEAD:main
 
 # Create / update tag
-git tag -fa golang/${SERVICE_NAME}/${RELEASE_VERSION} \
-  -m "golang/${SERVICE_NAME}/${RELEASE_VERSION}"
+git tag -fa golang/${SERVICE_NAME}/${RELEASE_VERSION} -m "golang/${SERVICE_NAME}/${RELEASE_VERSION}"
 git push origin refs/tags/golang/${SERVICE_NAME}/${RELEASE_VERSION} --force

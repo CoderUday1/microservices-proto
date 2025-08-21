@@ -27,7 +27,9 @@ protoc --go_out=./golang --go_opt=paths=source_relative \
 
 # Init go module for this service
 cd golang/${SERVICE_NAME}
-go mod init edit -module="github.com/CoderUday/microservices-proto/golang/${SERVICE_NAME}" || true
+rm go.mod
+rm go.sum
+go mod init github.com/CoderUday1/microservices-proto/golang/${SERVICE_NAME}" || true
 go mod tidy
 cd ../../
 
